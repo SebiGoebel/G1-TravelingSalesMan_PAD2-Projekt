@@ -1,5 +1,8 @@
 # G1-TravelingSalesMan_PAD2-Projekt
-PAD2-Projekt_TravelingSalesManProblem
+Credits:
+  Projektleiter:  Sebastian Goebel      mr19b044@technikum-wien.at
+  Teammitglieder: Rahil Chopra          mr19b063@technikum-wien.at
+                  Peter Pallnstorfer    mr19b043@technikum-wien.at
 
 ## 1_UseCase:
 
