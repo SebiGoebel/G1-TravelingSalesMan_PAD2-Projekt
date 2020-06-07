@@ -1,0 +1,17 @@
+"C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files (x86)/CodeBlocks/MinGW/bin/mingw32-make.exe" "-DCMAKE_C_COMPILER=C:/Program Files (x86)/CodeBlocks/MinGW/bin/mingw32-gcc.exe" "-DCMAKE_CXX_COMPILER=C:/Program Files (x86)/CodeBlocks/MinGW/bin/c++.exe" -G "CodeBlocks - MinGW Makefiles" C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project
+-- The C compiler identification is GNU 5.1.0
+-- Check for working C compiler: C:/Program Files (x86)/CodeBlocks/MinGW/bin/mingw32-gcc.exe
+-- Check for working C compiler: C:/Program Files (x86)/CodeBlocks/MinGW/bin/mingw32-gcc.exe -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+
+
+-- Build files have been written to: C:/Users/sebas/OneDrive/Dokumente/FH/2.Semester/PAD/Projekt/Projekt/G1-TravelingSalesMan_PAD2-Projekt/Project/cmake-build-debug
