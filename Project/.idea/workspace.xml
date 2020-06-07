@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
       <config projectName="Project" targetName="Project" />
@@ -12,6 +30,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68918bd0-454c-4159-9aa8-28bde951416e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project.dir/C.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project.dir/main.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project.dir/objects.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Project.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Project.exe" afterDir="false" />
@@ -56,7 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1591541746539</updated>
       <workItem from="1591541747980" duration="45000" />
-      <workItem from="1591542866947" duration="1597000" />
+      <workItem from="1591542866947" duration="3576000" />
     </task>
     <servers />
   </component>
@@ -78,21 +98,25 @@
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="3397" height="554" key="GridCell.Tab.0.bottom" timestamp="1591544443482">
+    <state width="1674" height="406" key="GridCell.Tab.0.bottom" timestamp="1591546380264">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="3397" height="554" key="GridCell.Tab.0.bottom/718.1440.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591544443482" />
-    <state width="3397" height="554" key="GridCell.Tab.0.center" timestamp="1591544443482">
+    <state width="1674" height="406" key="GridCell.Tab.0.bottom/718.1440.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591546380264" />
+    <state width="1674" height="406" key="GridCell.Tab.0.center" timestamp="1591546380264">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="3397" height="554" key="GridCell.Tab.0.center/718.1440.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591544443482" />
-    <state width="3397" height="554" key="GridCell.Tab.0.left" timestamp="1591544443482">
+    <state width="1674" height="406" key="GridCell.Tab.0.center/718.1440.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591546380264" />
+    <state width="1674" height="406" key="GridCell.Tab.0.left" timestamp="1591546380264">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="3397" height="554" key="GridCell.Tab.0.left/718.1440.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591544443482" />
-    <state width="3397" height="554" key="GridCell.Tab.0.right" timestamp="1591544443482">
+    <state width="1674" height="406" key="GridCell.Tab.0.left/718.1440.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591546380264" />
+    <state width="1674" height="406" key="GridCell.Tab.0.right" timestamp="1591546380264">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="3397" height="554" key="GridCell.Tab.0.right/718.1440.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591544443482" />
+    <state width="1674" height="406" key="GridCell.Tab.0.right/718.1440.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591546380264" />
+    <state x="523" y="320" width="672" height="678" key="search.everywhere.popup" timestamp="1591545785522">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="523" y="320" width="672" height="678" key="search.everywhere.popup/718.1440.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591545785522" />
   </component>
 </project>
