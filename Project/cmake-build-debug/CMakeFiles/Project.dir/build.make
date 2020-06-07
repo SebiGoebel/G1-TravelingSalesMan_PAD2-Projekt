@@ -56,32 +56,47 @@ include CMakeFiles/Project.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Project.dir/flags.make
 
-CMakeFiles/Project.dir/main.c.obj: CMakeFiles/Project.dir/flags.make
-CMakeFiles/Project.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Project.dir/main.c.obj"
-	C:\PROGRA~2\CODEBL~1\MinGW\bin\MI0840~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Project.dir\main.c.obj   -c C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\main.c
+CMakeFiles/Project.dir/Sources/main.c.obj: CMakeFiles/Project.dir/flags.make
+CMakeFiles/Project.dir/Sources/main.c.obj: ../Sources/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Project.dir/Sources/main.c.obj"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\MI0840~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Project.dir\Sources\main.c.obj   -c C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\Sources\main.c
 
-CMakeFiles/Project.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Project.dir/main.c.i"
-	C:\PROGRA~2\CODEBL~1\MinGW\bin\MI0840~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\main.c > CMakeFiles\Project.dir\main.c.i
+CMakeFiles/Project.dir/Sources/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Project.dir/Sources/main.c.i"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\MI0840~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\Sources\main.c > CMakeFiles\Project.dir\Sources\main.c.i
 
-CMakeFiles/Project.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Project.dir/main.c.s"
-	C:\PROGRA~2\CODEBL~1\MinGW\bin\MI0840~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\main.c -o CMakeFiles\Project.dir\main.c.s
+CMakeFiles/Project.dir/Sources/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Project.dir/Sources/main.c.s"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\MI0840~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\Sources\main.c -o CMakeFiles\Project.dir\Sources\main.c.s
+
+CMakeFiles/Project.dir/Sources/functions.c.obj: CMakeFiles/Project.dir/flags.make
+CMakeFiles/Project.dir/Sources/functions.c.obj: ../Sources/functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Project.dir/Sources/functions.c.obj"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\MI0840~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Project.dir\Sources\functions.c.obj   -c C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\Sources\functions.c
+
+CMakeFiles/Project.dir/Sources/functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Project.dir/Sources/functions.c.i"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\MI0840~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\Sources\functions.c > CMakeFiles\Project.dir\Sources\functions.c.i
+
+CMakeFiles/Project.dir/Sources/functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Project.dir/Sources/functions.c.s"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\MI0840~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\Sources\functions.c -o CMakeFiles\Project.dir\Sources\functions.c.s
 
 # Object files for target Project
 Project_OBJECTS = \
-"CMakeFiles/Project.dir/main.c.obj"
+"CMakeFiles/Project.dir/Sources/main.c.obj" \
+"CMakeFiles/Project.dir/Sources/functions.c.obj"
 
 # External object files for target Project
 Project_EXTERNAL_OBJECTS =
 
-Project.exe: CMakeFiles/Project.dir/main.c.obj
+Project.exe: CMakeFiles/Project.dir/Sources/main.c.obj
+Project.exe: CMakeFiles/Project.dir/Sources/functions.c.obj
 Project.exe: CMakeFiles/Project.dir/build.make
 Project.exe: CMakeFiles/Project.dir/linklibs.rsp
 Project.exe: CMakeFiles/Project.dir/objects1.rsp
 Project.exe: CMakeFiles/Project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Project.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable Project.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Project.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

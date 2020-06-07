@@ -3,8 +3,6 @@
 
 #define LEN 100
 
-void titel();
-
 typedef struct City{
     char cityname[60];//ascii
     double lng;//longitude
@@ -17,7 +15,12 @@ typedef struct City{
     struct City* next;
 }City;
 
+#include "../Headers/header.h"
+#include "../Sources/functions.c"
+
 int main() {
+
+    City *anfang = NULL;
 
     //title und ascii-art
     titel();
@@ -30,7 +33,7 @@ int main() {
         printf("MENU:\n");
         printf("----------------------------\n");
         printf("Bitte treffen Sie Ihre wahl:\n");
-        printf(" - 1 - Auswahl 1\n");
+        printf(" - 1 - Alles Ausgeben\n");
         printf(" - 2 - Auswahl 2\n");
         printf(" - 3 - Auswahl 3\n");
         printf(" - 0 - Beenden\n");
@@ -61,7 +64,7 @@ int main() {
 }
 
 //titel und ascii-art
-//Sebi
+//@Sebi
 void titel()
 {
     printf("  _[]_\n");

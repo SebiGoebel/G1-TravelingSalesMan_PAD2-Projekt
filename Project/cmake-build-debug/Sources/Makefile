@@ -79,14 +79,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\cmake-build-debug\CMakeFiles C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\cmake-build-debug\CMakeFiles\progress.marks
-	$(MAKE) -f CMakeFiles\Makefile2 all
+	cd /d C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\cmake-build-debug\CMakeFiles C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\cmake-build-debug\Sources\CMakeFiles\progress.marks
+	cd /d C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 Sources/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) -f CMakeFiles\Makefile2 clean
+	cd /d C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 Sources/clean
 .PHONY : clean
 
 # The main clean target
@@ -96,85 +96,60 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) -f CMakeFiles\Makefile2 preinstall
+	cd /d C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 Sources/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) -f CMakeFiles\Makefile2 preinstall
+	cd /d C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 Sources/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named Project
+# Convenience name for target.
+Sources/CMakeFiles/Sources.dir/rule:
+	cd /d C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 Sources/CMakeFiles/Sources.dir/rule
+.PHONY : Sources/CMakeFiles/Sources.dir/rule
 
-# Build rule for target.
-Project: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Project
-.PHONY : Project
+# Convenience name for target.
+Sources: Sources/CMakeFiles/Sources.dir/rule
+
+.PHONY : Sources
 
 # fast build rule for target.
-Project/fast:
-	$(MAKE) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/build
-.PHONY : Project/fast
+Sources/fast:
+	cd /d C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\cmake-build-debug && $(MAKE) -f Sources\CMakeFiles\Sources.dir\build.make Sources/CMakeFiles/Sources.dir/build
+.PHONY : Sources/fast
 
-Sources/functions.obj: Sources/functions.c.obj
+functions.obj: functions.c.obj
 
-.PHONY : Sources/functions.obj
-
-# target to build an object file
-Sources/functions.c.obj:
-	$(MAKE) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/Sources/functions.c.obj
-.PHONY : Sources/functions.c.obj
-
-Sources/functions.i: Sources/functions.c.i
-
-.PHONY : Sources/functions.i
-
-# target to preprocess a source file
-Sources/functions.c.i:
-	$(MAKE) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/Sources/functions.c.i
-.PHONY : Sources/functions.c.i
-
-Sources/functions.s: Sources/functions.c.s
-
-.PHONY : Sources/functions.s
-
-# target to generate assembly for a file
-Sources/functions.c.s:
-	$(MAKE) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/Sources/functions.c.s
-.PHONY : Sources/functions.c.s
-
-Sources/main.obj: Sources/main.c.obj
-
-.PHONY : Sources/main.obj
+.PHONY : functions.obj
 
 # target to build an object file
-Sources/main.c.obj:
-	$(MAKE) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/Sources/main.c.obj
-.PHONY : Sources/main.c.obj
+functions.c.obj:
+	cd /d C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\cmake-build-debug && $(MAKE) -f Sources\CMakeFiles\Sources.dir\build.make Sources/CMakeFiles/Sources.dir/functions.c.obj
+.PHONY : functions.c.obj
 
-Sources/main.i: Sources/main.c.i
+functions.i: functions.c.i
 
-.PHONY : Sources/main.i
+.PHONY : functions.i
 
 # target to preprocess a source file
-Sources/main.c.i:
-	$(MAKE) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/Sources/main.c.i
-.PHONY : Sources/main.c.i
+functions.c.i:
+	cd /d C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\cmake-build-debug && $(MAKE) -f Sources\CMakeFiles\Sources.dir\build.make Sources/CMakeFiles/Sources.dir/functions.c.i
+.PHONY : functions.c.i
 
-Sources/main.s: Sources/main.c.s
+functions.s: functions.c.s
 
-.PHONY : Sources/main.s
+.PHONY : functions.s
 
 # target to generate assembly for a file
-Sources/main.c.s:
-	$(MAKE) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/Sources/main.c.s
-.PHONY : Sources/main.c.s
+functions.c.s:
+	cd /d C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\cmake-build-debug && $(MAKE) -f Sources\CMakeFiles\Sources.dir\build.make Sources/CMakeFiles/Sources.dir/functions.c.s
+.PHONY : functions.c.s
 
 # Help Target
 help:
@@ -182,15 +157,12 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... Project
+	@echo ... Sources
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Sources/functions.obj
-	@echo ... Sources/functions.i
-	@echo ... Sources/functions.s
-	@echo ... Sources/main.obj
-	@echo ... Sources/main.i
-	@echo ... Sources/main.s
+	@echo ... functions.obj
+	@echo ... functions.i
+	@echo ... functions.s
 .PHONY : help
 
 
@@ -202,6 +174,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
