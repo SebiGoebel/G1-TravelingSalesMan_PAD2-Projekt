@@ -12,7 +12,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68918bd0-454c-4159-9aa8-28bde951416e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project.dir/main.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project.dir/objects.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Project.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Project.exe" afterDir="false" />
@@ -57,32 +56,43 @@
       <option name="presentableId" value="Default" />
       <updated>1591541746539</updated>
       <workItem from="1591541747980" duration="45000" />
-      <workItem from="1591542866947" duration="1256000" />
+      <workItem from="1591542866947" duration="1597000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="3397" height="554" key="GridCell.Tab.0.bottom" timestamp="1591544119208">
+    <state width="3397" height="554" key="GridCell.Tab.0.bottom" timestamp="1591544443482">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="3397" height="554" key="GridCell.Tab.0.bottom/718.1440.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591544119208" />
-    <state width="3397" height="554" key="GridCell.Tab.0.center" timestamp="1591544119208">
+    <state width="3397" height="554" key="GridCell.Tab.0.bottom/718.1440.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591544443482" />
+    <state width="3397" height="554" key="GridCell.Tab.0.center" timestamp="1591544443482">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="3397" height="554" key="GridCell.Tab.0.center/718.1440.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591544119208" />
-    <state width="3397" height="554" key="GridCell.Tab.0.left" timestamp="1591544119208">
+    <state width="3397" height="554" key="GridCell.Tab.0.center/718.1440.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591544443482" />
+    <state width="3397" height="554" key="GridCell.Tab.0.left" timestamp="1591544443482">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="3397" height="554" key="GridCell.Tab.0.left/718.1440.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591544119208" />
-    <state width="3397" height="554" key="GridCell.Tab.0.right" timestamp="1591544119208">
+    <state width="3397" height="554" key="GridCell.Tab.0.left/718.1440.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591544443482" />
+    <state width="3397" height="554" key="GridCell.Tab.0.right" timestamp="1591544443482">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="3397" height="554" key="GridCell.Tab.0.right/718.1440.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591544119208" />
+    <state width="3397" height="554" key="GridCell.Tab.0.right/718.1440.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591544443482" />
   </component>
 </project>
