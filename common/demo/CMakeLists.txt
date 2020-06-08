@@ -1,2 +1,0 @@
-add_executable(demo_fnc_ptr main_fnc_ptr.c)
-target_link_libraries (demo_fnc_ptr)
