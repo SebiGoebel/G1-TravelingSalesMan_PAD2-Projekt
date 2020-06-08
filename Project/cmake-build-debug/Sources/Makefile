@@ -109,60 +109,14 @@ depend:
 	cd /d C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
-# Convenience name for target.
-Sources/CMakeFiles/Sources.dir/rule:
-	cd /d C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 Sources/CMakeFiles/Sources.dir/rule
-.PHONY : Sources/CMakeFiles/Sources.dir/rule
-
-# Convenience name for target.
-Sources: Sources/CMakeFiles/Sources.dir/rule
-
-.PHONY : Sources
-
-# fast build rule for target.
-Sources/fast:
-	cd /d C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\cmake-build-debug && $(MAKE) -f Sources\CMakeFiles\Sources.dir\build.make Sources/CMakeFiles/Sources.dir/build
-.PHONY : Sources/fast
-
-functions.obj: functions.c.obj
-
-.PHONY : functions.obj
-
-# target to build an object file
-functions.c.obj:
-	cd /d C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\cmake-build-debug && $(MAKE) -f Sources\CMakeFiles\Sources.dir\build.make Sources/CMakeFiles/Sources.dir/functions.c.obj
-.PHONY : functions.c.obj
-
-functions.i: functions.c.i
-
-.PHONY : functions.i
-
-# target to preprocess a source file
-functions.c.i:
-	cd /d C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\cmake-build-debug && $(MAKE) -f Sources\CMakeFiles\Sources.dir\build.make Sources/CMakeFiles/Sources.dir/functions.c.i
-.PHONY : functions.c.i
-
-functions.s: functions.c.s
-
-.PHONY : functions.s
-
-# target to generate assembly for a file
-functions.c.s:
-	cd /d C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\cmake-build-debug && $(MAKE) -f Sources\CMakeFiles\Sources.dir\build.make Sources/CMakeFiles/Sources.dir/functions.c.s
-.PHONY : functions.c.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... Sources
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... functions.obj
-	@echo ... functions.i
-	@echo ... functions.s
 .PHONY : help
 
 

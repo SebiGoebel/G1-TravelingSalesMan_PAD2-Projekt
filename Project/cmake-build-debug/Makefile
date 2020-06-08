@@ -110,71 +110,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Project
+# Target rules for targets named header
 
 # Build rule for target.
-Project: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Project
-.PHONY : Project
+header: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 header
+.PHONY : header
 
 # fast build rule for target.
-Project/fast:
-	$(MAKE) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/build
-.PHONY : Project/fast
+header/fast:
+	$(MAKE) -f common\Sources\CMakeFiles\header.dir\build.make common/Sources/CMakeFiles/header.dir/build
+.PHONY : header/fast
 
-Sources/functions.obj: Sources/functions.c.obj
+#=============================================================================
+# Target rules for targets named G1-SalesManProblem
 
-.PHONY : Sources/functions.obj
+# Build rule for target.
+G1-SalesManProblem: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 G1-SalesManProblem
+.PHONY : G1-SalesManProblem
 
-# target to build an object file
-Sources/functions.c.obj:
-	$(MAKE) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/Sources/functions.c.obj
-.PHONY : Sources/functions.c.obj
-
-Sources/functions.i: Sources/functions.c.i
-
-.PHONY : Sources/functions.i
-
-# target to preprocess a source file
-Sources/functions.c.i:
-	$(MAKE) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/Sources/functions.c.i
-.PHONY : Sources/functions.c.i
-
-Sources/functions.s: Sources/functions.c.s
-
-.PHONY : Sources/functions.s
-
-# target to generate assembly for a file
-Sources/functions.c.s:
-	$(MAKE) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/Sources/functions.c.s
-.PHONY : Sources/functions.c.s
-
-Sources/main.obj: Sources/main.c.obj
-
-.PHONY : Sources/main.obj
-
-# target to build an object file
-Sources/main.c.obj:
-	$(MAKE) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/Sources/main.c.obj
-.PHONY : Sources/main.c.obj
-
-Sources/main.i: Sources/main.c.i
-
-.PHONY : Sources/main.i
-
-# target to preprocess a source file
-Sources/main.c.i:
-	$(MAKE) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/Sources/main.c.i
-.PHONY : Sources/main.c.i
-
-Sources/main.s: Sources/main.c.s
-
-.PHONY : Sources/main.s
-
-# target to generate assembly for a file
-Sources/main.c.s:
-	$(MAKE) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/Sources/main.c.s
-.PHONY : Sources/main.c.s
+# fast build rule for target.
+G1-SalesManProblem/fast:
+	$(MAKE) -f common\Demo\CMakeFiles\G1-SalesManProblem.dir\build.make common/Demo/CMakeFiles/G1-SalesManProblem.dir/build
+.PHONY : G1-SalesManProblem/fast
 
 # Help Target
 help:
@@ -182,15 +141,10 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... Project
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Sources/functions.obj
-	@echo ... Sources/functions.i
-	@echo ... Sources/functions.s
-	@echo ... Sources/main.obj
-	@echo ... Sources/main.i
-	@echo ... Sources/main.s
+	@echo ... header
+	@echo ... G1-SalesManProblem
 .PHONY : help
 
 

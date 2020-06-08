@@ -20,38 +20,45 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="Project" targetName="Project" />
+      <config projectName="G1-SalesManProblem-Project" targetName="header" />
+      <config projectName="G1-SalesManProblem-Project" targetName="G1-SalesManProblem" />
     </generated>
   </component>
-  <component name="CMakeSettings">
+  <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68918bd0-454c-4159-9aa8-28bde951416e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Headers/header.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sources/functions.c" afterDir="false" />
+    <list default="true" id="2fba3f29-4b53-4070-ba5f-c190b1a386a9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/common/Sources/functions.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/header.h" beforeDir="false" afterPath="$PROJECT_DIR$/common/Headers/header.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/functions.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/common/Demo/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project.dir/C.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project.dir/Sources/functions.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project.dir/Sources/main.c.obj" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project.dir/main.c.obj" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project.dir/objects.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Project.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Project.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Project.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Project.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Sources/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Sources/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Sources/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Sources/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +79,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1czqPdZKal3s82avsQLxskDhZ6z" />
+  <component name="ProjectId" id="1d2e4kh1O2nna2hw6JnaUg6JspL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -83,29 +90,41 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\common\Headers" />
+      <recent name="C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\common" />
+      <recent name="C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\Demo" />
       <recent name="C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\Sources" />
-      <recent name="C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\Headers" />
+      <recent name="C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Project" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Project" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Project">
+  <component name="RunManager" selected="CMake Application.G1-SalesManProblem">
+    <configuration name="G1-SalesManProblem" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="G1-SalesManProblem-Project" TARGET_NAME="G1-SalesManProblem" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="G1-SalesManProblem-Project" RUN_TARGET_NAME="G1-SalesManProblem">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="header" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="G1-SalesManProblem-Project" TARGET_NAME="header" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.G1-SalesManProblem" />
+      <item itemvalue="CMake Application.header" />
+    </list>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="68918bd0-454c-4159-9aa8-28bde951416e" name="Default Changelist" comment="" />
-      <created>1591541746539</created>
+      <changelist id="2fba3f29-4b53-4070-ba5f-c190b1a386a9" name="Default Changelist" comment="" />
+      <created>1591627425220</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1591541746539</updated>
-      <workItem from="1591541747980" duration="45000" />
-      <workItem from="1591542866947" duration="8207000" />
+      <updated>1591627425220</updated>
+      <workItem from="1591627426454" duration="3508000" />
     </task>
     <servers />
   </component>
@@ -123,33 +142,22 @@
       </map>
     </option>
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="605" y="505" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591549739451">
+    <state width="1841" height="400" key="GridCell.Tab.0.bottom" timestamp="1591631326735">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="605" y="505" key="#com.intellij.fileTypes.FileTypeChooser/718.1440.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591549739451" />
-    <state width="1674" height="406" key="GridCell.Tab.0.bottom" timestamp="1591552704903">
+    <state width="1841" height="400" key="GridCell.Tab.0.bottom/718.1440.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591631326735" />
+    <state width="1841" height="400" key="GridCell.Tab.0.center" timestamp="1591631326735">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1674" height="406" key="GridCell.Tab.0.bottom/718.1440.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591552704903" />
-    <state width="1674" height="406" key="GridCell.Tab.0.center" timestamp="1591552704903">
+    <state width="1841" height="400" key="GridCell.Tab.0.center/718.1440.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591631326735" />
+    <state width="1841" height="400" key="GridCell.Tab.0.left" timestamp="1591631326735">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1674" height="406" key="GridCell.Tab.0.center/718.1440.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591552704903" />
-    <state width="1674" height="406" key="GridCell.Tab.0.left" timestamp="1591552704903">
+    <state width="1841" height="400" key="GridCell.Tab.0.left/718.1440.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591631326735" />
+    <state width="1841" height="400" key="GridCell.Tab.0.right" timestamp="1591631326735">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1674" height="406" key="GridCell.Tab.0.left/718.1440.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591552704903" />
-    <state width="1674" height="406" key="GridCell.Tab.0.right" timestamp="1591552704903">
-      <screen x="0" y="0" width="3440" height="1400" />
-    </state>
-    <state width="1674" height="406" key="GridCell.Tab.0.right/718.1440.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591552704903" />
-    <state x="523" y="320" width="672" height="678" key="search.everywhere.popup" timestamp="1591545785522">
-      <screen x="0" y="0" width="3440" height="1400" />
-    </state>
-    <state x="523" y="320" width="672" height="678" key="search.everywhere.popup/718.1440.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591545785522" />
+    <state width="1841" height="400" key="GridCell.Tab.0.right/718.1440.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591631326735" />
   </component>
 </project>

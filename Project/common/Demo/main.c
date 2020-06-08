@@ -15,8 +15,7 @@ typedef struct City{
     struct City* next;
 }City;
 
-#include "../Headers/header.h"
-#include "../Sources/functions.c"
+#include <header.h>
 
 int main() {
 
@@ -61,29 +60,4 @@ int main() {
     }while (menu_wahl != 0);
 
     return 0;
-}
-
-//titel und ascii-art
-//@Sebi
-void titel()
-{
-    printf("  _[]_\n");
-    printf(" <(^_^)>\n");
-    printf("  ([])\n");
-    printf("  / |\n");
-    printf("--------------------------------\n");
-    printf("   _________                ____\n");
-    printf("  /                        // ||\n");
-    printf(" /                        //  ||\n");
-    printf("/                        //   ||\n");
-    printf("|                             ||\n");
-    printf("|                             ||\n");
-    printf("|                             ||\n");
-    printf(" \\       ___                  ||\n");
-    printf("  \\        |                  ||\n");
-    printf("   \\       |                  ||\n");
-    printf("    --------                 ----\n");
-    printf("---------------------------------\n");
-    printf("G1_TravellingSalesMan\n");
-    printf("=================================\n");
 }

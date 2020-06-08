@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_GENERATOR "MinGW Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "C:/Program Files/JetBrains/CLion 2020.1.2/bin/cmake/win/share/cmake-3.16/Modules/CMakeCInformation.cmake"
+  "C:/Program Files/JetBrains/CLion 2020.1.2/bin/cmake/win/share/cmake-3.16/Modules/CMakeCXXInformation.cmake"
   "C:/Program Files/JetBrains/CLion 2020.1.2/bin/cmake/win/share/cmake-3.16/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
   "C:/Program Files/JetBrains/CLion 2020.1.2/bin/cmake/win/share/cmake-3.16/Modules/CMakeCommonLanguageInclude.cmake"
   "C:/Program Files/JetBrains/CLion 2020.1.2/bin/cmake/win/share/cmake-3.16/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake"
@@ -20,10 +21,13 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/JetBrains/CLion 2020.1.2/bin/cmake/win/share/cmake-3.16/Modules/CMakeSystemSpecificInitialize.cmake"
   "C:/Program Files/JetBrains/CLion 2020.1.2/bin/cmake/win/share/cmake-3.16/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
   "C:/Program Files/JetBrains/CLion 2020.1.2/bin/cmake/win/share/cmake-3.16/Modules/Compiler/GNU-C.cmake"
+  "C:/Program Files/JetBrains/CLion 2020.1.2/bin/cmake/win/share/cmake-3.16/Modules/Compiler/GNU-CXX.cmake"
   "C:/Program Files/JetBrains/CLion 2020.1.2/bin/cmake/win/share/cmake-3.16/Modules/Compiler/GNU.cmake"
   "C:/Program Files/JetBrains/CLion 2020.1.2/bin/cmake/win/share/cmake-3.16/Modules/Internal/CMakeCheckCompilerFlag.cmake"
   "C:/Program Files/JetBrains/CLion 2020.1.2/bin/cmake/win/share/cmake-3.16/Modules/Platform/Windows-GNU-C-ABI.cmake"
   "C:/Program Files/JetBrains/CLion 2020.1.2/bin/cmake/win/share/cmake-3.16/Modules/Platform/Windows-GNU-C.cmake"
+  "C:/Program Files/JetBrains/CLion 2020.1.2/bin/cmake/win/share/cmake-3.16/Modules/Platform/Windows-GNU-CXX-ABI.cmake"
+  "C:/Program Files/JetBrains/CLion 2020.1.2/bin/cmake/win/share/cmake-3.16/Modules/Platform/Windows-GNU-CXX.cmake"
   "C:/Program Files/JetBrains/CLion 2020.1.2/bin/cmake/win/share/cmake-3.16/Modules/Platform/Windows-GNU.cmake"
   "C:/Program Files/JetBrains/CLion 2020.1.2/bin/cmake/win/share/cmake-3.16/Modules/Platform/Windows-windres.cmake"
   "C:/Program Files/JetBrains/CLion 2020.1.2/bin/cmake/win/share/cmake-3.16/Modules/Platform/Windows.cmake"
@@ -31,8 +35,12 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/JetBrains/CLion 2020.1.2/bin/cmake/win/share/cmake-3.16/Modules/ProcessorCount.cmake"
   "../CMakeLists.txt"
   "CMakeFiles/3.16.5/CMakeCCompiler.cmake"
+  "CMakeFiles/3.16.5/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.16.5/CMakeRCCompiler.cmake"
   "CMakeFiles/3.16.5/CMakeSystem.cmake"
+  "../common/CMakeLists.txt"
+  "../common/Demo/CMakeLists.txt"
+  "../common/Sources/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -44,9 +52,13 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "common/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "common/Sources/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "common/Demo/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/Project.dir/DependInfo.cmake"
+  "common/Sources/CMakeFiles/header.dir/DependInfo.cmake"
+  "common/Demo/CMakeFiles/G1-SalesManProblem.dir/DependInfo.cmake"
   )

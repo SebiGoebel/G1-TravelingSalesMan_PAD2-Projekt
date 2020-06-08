@@ -1,6 +1,10 @@
 cmake_minimum_required(VERSION 3.16)
-project(Project C)
+project(G1-SalesManProblem-Project)
 
-set(CMAKE_C_STANDARD 99)
+set(CMAKE_C_FLAGS "-std=c99 -Werror")
 
-add_executable(Project Sources/main.c Headers/header.h Sources/functions.c)
+set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+
+add_subdirectory(common)
