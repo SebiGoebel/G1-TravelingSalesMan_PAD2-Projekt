@@ -10,13 +10,13 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+    </expand>
+    <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-    </expand>
-    <select />
+    </select>
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
@@ -31,16 +31,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fba3f29-4b53-4070-ba5f-c190b1a386a9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/bin/G1-SalesManProblem.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/bin/G1-SalesManProblem.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/bin/libG1-SalesManProblem-library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/bin/libG1-SalesManProblem-library.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/common/Demo/CMakeFiles/G1-SalesManProblem.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/common/Demo/CMakeFiles/G1-SalesManProblem.dir/C.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/common/Demo/CMakeFiles/G1-SalesManProblem.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/common/Demo/CMakeFiles/G1-SalesManProblem.dir/main.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/common/Demo/CMakeFiles/G1-SalesManProblem.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/common/Demo/CMakeFiles/G1-SalesManProblem.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/common/Sources/CMakeFiles/G1-SalesManProblem-library.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/common/Sources/CMakeFiles/G1-SalesManProblem-library.dir/C.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/common/Sources/CMakeFiles/G1-SalesManProblem-library.dir/functions.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/common/Sources/CMakeFiles/G1-SalesManProblem-library.dir/functions.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/common/Sources/CMakeFiles/G1-SalesManProblem-library.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/common/Sources/CMakeFiles/G1-SalesManProblem-library.dir/objects.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/libG1-SalesManProblem-library.dll.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libG1-SalesManProblem-library.dll.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/Demo/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/common/Demo/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/Headers/header.h" beforeDir="false" afterPath="$PROJECT_DIR$/common/Headers/header.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Sources/functions.c" beforeDir="false" afterPath="$PROJECT_DIR$/common/Sources/functions.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +61,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <branch-grouping />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1d2e4kh1O2nna2hw6JnaUg6JspL" />
@@ -72,15 +75,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../ComputerUebung_3_GGT/numberFile.csv" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\common\Headers" />
-      <recent name="C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\common" />
-      <recent name="C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\Demo" />
-      <recent name="C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\Sources" />
       <recent name="C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project" />
+      <recent name="C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\common\Demo" />
+      <recent name="C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\common\Sources" />
+      <recent name="C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\common" />
+      <recent name="C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\common\Headers" />
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.G1-SalesManProblem">
@@ -108,7 +111,7 @@
       <updated>1591627425220</updated>
       <workItem from="1591627426454" duration="4385000" />
       <workItem from="1591697803867" duration="16000" />
-      <workItem from="1591775492794" duration="2029000" />
+      <workItem from="1591775492794" duration="24830000" />
     </task>
     <servers />
   </component>
@@ -131,25 +134,53 @@
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="3397" height="399" key="GridCell.Tab.0.bottom" timestamp="1591778126792">
+    <state x="1429" y="411" key="#G1-SalesManProblem-library" timestamp="1591779005299">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="3397" height="399" key="GridCell.Tab.0.bottom/3440.841.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591778126792" />
+    <state x="1429" y="411" key="#G1-SalesManProblem-library/3440.841.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591779005299" />
+    <state x="812" y="458" key="FileChooserDialogImpl" timestamp="1591797480425">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="812" y="458" key="FileChooserDialogImpl/3440.841.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591797480425" />
+    <state width="2017" height="310" key="GridCell.Tab.0.bottom" timestamp="1591804375612">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="2017" height="310" key="GridCell.Tab.0.bottom/3440.841.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591804375612" />
     <state width="3397" height="399" key="GridCell.Tab.0.bottom/718.1440.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591632228596" />
-    <state width="3397" height="399" key="GridCell.Tab.0.center" timestamp="1591778126792">
+    <state width="2017" height="310" key="GridCell.Tab.0.center" timestamp="1591804375612">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="3397" height="399" key="GridCell.Tab.0.center/3440.841.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591778126792" />
+    <state width="2017" height="310" key="GridCell.Tab.0.center/3440.841.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591804375612" />
     <state width="3397" height="399" key="GridCell.Tab.0.center/718.1440.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591632228596" />
-    <state width="3397" height="399" key="GridCell.Tab.0.left" timestamp="1591778126792">
+    <state width="2017" height="310" key="GridCell.Tab.0.left" timestamp="1591804375611">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="3397" height="399" key="GridCell.Tab.0.left/3440.841.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591778126792" />
+    <state width="2017" height="310" key="GridCell.Tab.0.left/3440.841.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591804375611" />
     <state width="3397" height="399" key="GridCell.Tab.0.left/718.1440.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591632228596" />
-    <state width="3397" height="399" key="GridCell.Tab.0.right" timestamp="1591778126792">
+    <state width="2017" height="310" key="GridCell.Tab.0.right" timestamp="1591804375612">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="3397" height="399" key="GridCell.Tab.0.right/3440.841.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591778126792" />
+    <state width="2017" height="310" key="GridCell.Tab.0.right/3440.841.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591804375612" />
     <state width="3397" height="399" key="GridCell.Tab.0.right/718.1440.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591632228596" />
+    <state width="2019" height="332" key="GridCell.Tab.1.bottom" timestamp="1591790371143">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="2019" height="332" key="GridCell.Tab.1.bottom/3440.841.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591790371143" />
+    <state width="2019" height="332" key="GridCell.Tab.1.center" timestamp="1591790371143">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="2019" height="332" key="GridCell.Tab.1.center/3440.841.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591790371143" />
+    <state width="2019" height="332" key="GridCell.Tab.1.left" timestamp="1591790371143">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="2019" height="332" key="GridCell.Tab.1.left/3440.841.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591790371143" />
+    <state width="2019" height="332" key="GridCell.Tab.1.right" timestamp="1591790371143">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="2019" height="332" key="GridCell.Tab.1.right/3440.841.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591790371143" />
+    <state x="876" y="361" width="1563" height="838" key="dock-window-1" timestamp="1591798408386">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="876" y="361" width="1563" height="838" key="dock-window-1/3440.841.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591798408386" />
   </component>
 </project>
