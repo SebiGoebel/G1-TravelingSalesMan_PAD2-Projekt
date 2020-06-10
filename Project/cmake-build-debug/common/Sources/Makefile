@@ -55,17 +55,6 @@ CMAKE_BINARY_DIR = C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\P
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -76,6 +65,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -110,19 +110,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-common/Sources/CMakeFiles/header.dir/rule:
-	cd /d C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 common/Sources/CMakeFiles/header.dir/rule
-.PHONY : common/Sources/CMakeFiles/header.dir/rule
+common/Sources/CMakeFiles/G1-SalesManProblem-library.dir/rule:
+	cd /d C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 common/Sources/CMakeFiles/G1-SalesManProblem-library.dir/rule
+.PHONY : common/Sources/CMakeFiles/G1-SalesManProblem-library.dir/rule
 
 # Convenience name for target.
-header: common/Sources/CMakeFiles/header.dir/rule
+G1-SalesManProblem-library: common/Sources/CMakeFiles/G1-SalesManProblem-library.dir/rule
 
-.PHONY : header
+.PHONY : G1-SalesManProblem-library
 
 # fast build rule for target.
-header/fast:
-	cd /d C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\cmake-build-debug && $(MAKE) -f common\Sources\CMakeFiles\header.dir\build.make common/Sources/CMakeFiles/header.dir/build
-.PHONY : header/fast
+G1-SalesManProblem-library/fast:
+	cd /d C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\cmake-build-debug && $(MAKE) -f common\Sources\CMakeFiles\G1-SalesManProblem-library.dir\build.make common/Sources/CMakeFiles/G1-SalesManProblem-library.dir/build
+.PHONY : G1-SalesManProblem-library/fast
 
 functions.obj: functions.c.obj
 
@@ -130,7 +130,7 @@ functions.obj: functions.c.obj
 
 # target to build an object file
 functions.c.obj:
-	cd /d C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\cmake-build-debug && $(MAKE) -f common\Sources\CMakeFiles\header.dir\build.make common/Sources/CMakeFiles/header.dir/functions.c.obj
+	cd /d C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\cmake-build-debug && $(MAKE) -f common\Sources\CMakeFiles\G1-SalesManProblem-library.dir\build.make common/Sources/CMakeFiles/G1-SalesManProblem-library.dir/functions.c.obj
 .PHONY : functions.c.obj
 
 functions.i: functions.c.i
@@ -139,7 +139,7 @@ functions.i: functions.c.i
 
 # target to preprocess a source file
 functions.c.i:
-	cd /d C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\cmake-build-debug && $(MAKE) -f common\Sources\CMakeFiles\header.dir\build.make common/Sources/CMakeFiles/header.dir/functions.c.i
+	cd /d C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\cmake-build-debug && $(MAKE) -f common\Sources\CMakeFiles\G1-SalesManProblem-library.dir\build.make common/Sources/CMakeFiles/G1-SalesManProblem-library.dir/functions.c.i
 .PHONY : functions.c.i
 
 functions.s: functions.c.s
@@ -148,7 +148,7 @@ functions.s: functions.c.s
 
 # target to generate assembly for a file
 functions.c.s:
-	cd /d C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\cmake-build-debug && $(MAKE) -f common\Sources\CMakeFiles\header.dir\build.make common/Sources/CMakeFiles/header.dir/functions.c.s
+	cd /d C:\Users\sebas\OneDrive\Dokumente\FH\2.Semester\PAD\Projekt\Projekt\G1-TravelingSalesMan_PAD2-Projekt\Project\cmake-build-debug && $(MAKE) -f common\Sources\CMakeFiles\G1-SalesManProblem-library.dir\build.make common/Sources/CMakeFiles/G1-SalesManProblem-library.dir/functions.c.s
 .PHONY : functions.c.s
 
 # Help Target
@@ -157,9 +157,9 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... edit_cache
-	@echo ... header
 	@echo ... rebuild_cache
+	@echo ... G1-SalesManProblem-library
+	@echo ... edit_cache
 	@echo ... functions.obj
 	@echo ... functions.i
 	@echo ... functions.s

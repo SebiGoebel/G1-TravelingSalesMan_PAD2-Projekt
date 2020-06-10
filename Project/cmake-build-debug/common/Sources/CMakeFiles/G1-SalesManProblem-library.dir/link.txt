@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\G1-SalesManProblem-library.dir/objects.a
+C:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\G1-SalesManProblem-library.dir/objects.a @CMakeFiles\G1-SalesManProblem-library.dir\objects1.rsp
+C:\PROGRA~2\CODEBL~1\MinGW\bin\MI0840~1.EXE  -std=c99 -Werror -g  -shared -o ..\..\bin\libG1-SalesManProblem-library.dll -Wl,--out-implib,..\..\lib\libG1-SalesManProblem-library.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\G1-SalesManProblem-library.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\G1-SalesManProblem-library.dir\linklibs.rsp

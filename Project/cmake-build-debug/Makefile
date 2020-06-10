@@ -110,17 +110,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named header
+# Target rules for targets named G1-SalesManProblem-library
 
 # Build rule for target.
-header: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 header
-.PHONY : header
+G1-SalesManProblem-library: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 G1-SalesManProblem-library
+.PHONY : G1-SalesManProblem-library
 
 # fast build rule for target.
-header/fast:
-	$(MAKE) -f common\Sources\CMakeFiles\header.dir\build.make common/Sources/CMakeFiles/header.dir/build
-.PHONY : header/fast
+G1-SalesManProblem-library/fast:
+	$(MAKE) -f common\Sources\CMakeFiles\G1-SalesManProblem-library.dir\build.make common/Sources/CMakeFiles/G1-SalesManProblem-library.dir/build
+.PHONY : G1-SalesManProblem-library/fast
 
 #=============================================================================
 # Target rules for targets named G1-SalesManProblem
@@ -143,7 +143,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... header
+	@echo ... G1-SalesManProblem-library
 	@echo ... G1-SalesManProblem
 .PHONY : help
 

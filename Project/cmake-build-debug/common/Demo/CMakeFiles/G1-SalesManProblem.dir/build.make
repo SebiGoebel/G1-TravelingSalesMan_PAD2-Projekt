@@ -79,7 +79,7 @@ G1__SalesManProblem_EXTERNAL_OBJECTS =
 
 bin/G1-SalesManProblem.exe: common/Demo/CMakeFiles/G1-SalesManProblem.dir/main.c.obj
 bin/G1-SalesManProblem.exe: common/Demo/CMakeFiles/G1-SalesManProblem.dir/build.make
-bin/G1-SalesManProblem.exe: lib/libheader.dll.a
+bin/G1-SalesManProblem.exe: lib/libG1-SalesManProblem-library.dll.a
 bin/G1-SalesManProblem.exe: common/Demo/CMakeFiles/G1-SalesManProblem.dir/linklibs.rsp
 bin/G1-SalesManProblem.exe: common/Demo/CMakeFiles/G1-SalesManProblem.dir/objects1.rsp
 bin/G1-SalesManProblem.exe: common/Demo/CMakeFiles/G1-SalesManProblem.dir/link.txt
