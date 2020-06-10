@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define LEN 100
-
+/*
 typedef struct City{
     char cityname[60];//ascii
     double lng;//longitude
@@ -14,6 +13,7 @@ typedef struct City{
 
     struct City* next;
 }City;
+*/
 
 #include <header.h>
 
