@@ -163,8 +163,25 @@ void readCSV_nixgehen(const char *filename)
 
 }
 
+/*
+typedef struct City{
+    char city[60];
+    char cityascii[60];
+    double lat;//latitude
+    double lng;//longitude
+    char country[60];
+    char iso2[10];
+    char iso3[10];
+    char admin_name[60];
+    char capital[10];
+    int population;
+    int id;
 
-//array fehlt noch
+    struct City* next;
+}City;
+*/
+
+//funktioniert noch nicht perfekt (nicht richtig) -> list nur jeden zweiten daten satz ein
 //@Sebi
 void readCSV(const char *filename)
 {
@@ -176,25 +193,45 @@ void readCSV(const char *filename)
         return;
     }
 
-    City *cities = malloc(sizeof(City));
+    City cities[20];
 
     char zeile[200];
     int counter = 0;
+    int datensatz = 0;
 
+
+    fgets(zeile, sizeof(zeile), fPointer);
     while(fgets(zeile, sizeof(zeile), fPointer) != NULL){
-        fgets(zeile, sizeof(zeile), fPointer);
-        printf("Zeile: %s\n", zeile);
+        //printf("Zeile: %s\n", zeile);
 
-        char trennung[] = "\",\"";
+        char *trennung = "\",\"";
         char *piece = strtok(zeile, trennung);
 
         while(piece != NULL){
-            //printf("%s\n", piece);
+            printf("Datensatz: %d", datensatz);
+            if(datensatz == 0) strcpy(cities[counter].city, piece);
+            if(datensatz == 1) strcpy(cities[counter].city_ascii, piece);
+            if(datensatz == 2) cities[counter].lat = atof(piece);
+            if(datensatz == 3) cities[counter].lng = atof(piece);
+            if(datensatz == 4) strcpy(cities[counter].country, piece);
+            if(datensatz == 5) strcpy(cities[counter].iso2, piece);
+            if(datensatz == 6) strcpy(cities[counter].iso3, piece);
+            if(datensatz == 7) strcpy(cities[counter].admin_name, piece);
+            if(datensatz == 8) strcpy(cities[counter].capital, piece);
+            if(datensatz == 9) cities[counter].population = atoi(piece);
+            if(datensatz == 10)cities[counter].id = atoi(piece);
+
+
+            printf("%s\n", piece);
+            //printf("%f\n", cities[counter].lat);
+            datensatz++;
             piece = strtok(NULL, trennung);
         }
+        datensatz = 0;
         counter++;
     }
 
     printf("Es wurden %d Datensaetze eingelesen!\n", counter);
+    printf("Test: %lf\n", cities[4].lat);
 }
 
