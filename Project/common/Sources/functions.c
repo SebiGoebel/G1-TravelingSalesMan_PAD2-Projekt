@@ -214,13 +214,13 @@ void readCSV(const char *filename)
     fgets(zeile, sizeof(zeile), fPointer);
     while(fgets(zeile, sizeof(zeile), fPointer) != NULL){
 
-        printf("Zeile: %s\n", zeile);
+        //printf("Zeile: %s\n", zeile);
 
         char *trennung = "\",\"";
         char *piece = strtok(zeile, trennung);
 
         while(piece != NULL){
-            printf("Datensatz: %d", datensatz);
+            //printf("Datensatz: %d", datensatz);
             if(datensatz == 0) strcpy(cities[counter].city, piece);
             if(datensatz == 1) strcpy(cities[counter].city_ascii, piece);
             if(datensatz == 2) cities[counter].lat = atof(piece);
@@ -234,8 +234,8 @@ void readCSV(const char *filename)
             if(datensatz == 10)cities[counter].id = atoi(piece);
 
 
-            printf("%s\n", piece);
-            printf("%f\n", cities[counter].lat);
+            //printf("%s\n", piece);
+            //printf("%f\n", cities[counter].lat);
             datensatz++;
             piece = strtok(NULL, trennung);
         }
@@ -244,6 +244,6 @@ void readCSV(const char *filename)
     }
 
     printf("Es wurden %d Datensaetze eingelesen!\n", counter);
-    printf("Test: %f\n", cities[4].lat);
+    //printf("Test: %f\n", cities[4].lat);
 }
 
