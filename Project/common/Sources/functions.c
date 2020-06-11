@@ -181,7 +181,7 @@ typedef struct City{
 }City;
 */
 
-//funktioniert noch nicht perfekt (nicht richtig) -> list nur jeden zweiten daten satz ein
+//funktionier -> lässt nur noch die hunderter stellen von lat ung lng aus
 //@Sebi
 void readCSV(const char *filename)
 {
@@ -193,7 +193,18 @@ void readCSV(const char *filename)
         return;
     }
 
-    City cities[20];
+    int zeilencounter = 0;
+    for(char c = getc(fPointer); c != EOF; c = getc(fPointer))
+    {
+        if(c == '\n')
+        {
+            zeilencounter++;
+        }
+    }
+
+    //printf("Zeilencounter: %d", zeilencounter);
+    City cities[zeilencounter+1];
+    rewind(fPointer);
 
     char zeile[200];
     int counter = 0;
@@ -202,7 +213,8 @@ void readCSV(const char *filename)
 
     fgets(zeile, sizeof(zeile), fPointer);
     while(fgets(zeile, sizeof(zeile), fPointer) != NULL){
-        //printf("Zeile: %s\n", zeile);
+
+        printf("Zeile: %s\n", zeile);
 
         char *trennung = "\",\"";
         char *piece = strtok(zeile, trennung);
@@ -223,7 +235,7 @@ void readCSV(const char *filename)
 
 
             printf("%s\n", piece);
-            //printf("%f\n", cities[counter].lat);
+            printf("%f\n", cities[counter].lat);
             datensatz++;
             piece = strtok(NULL, trennung);
         }
@@ -232,6 +244,6 @@ void readCSV(const char *filename)
     }
 
     printf("Es wurden %d Datensaetze eingelesen!\n", counter);
-    printf("Test: %lf\n", cities[4].lat);
+    printf("Test: %f\n", cities[4].lat);
 }
 
