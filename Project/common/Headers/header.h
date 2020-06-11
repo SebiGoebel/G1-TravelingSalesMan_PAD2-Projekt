@@ -44,8 +44,7 @@ void titel();
 //(wenn wir es mit einem array machen dann müssen wir diese Funktion auskommentieren oder löschen)
 void ausgabe(City *anfang);
 
-//reads the csv into an array
-void readCSV_nixgehen(const char *filename);
-void readCSV(const char *filename);
+//gibt die größe eines Arrays an um ein file vollständig lesen zu können
+int arrayGroesse(const char *filename);
 
 #endif //PROJECT_HEADER_H
