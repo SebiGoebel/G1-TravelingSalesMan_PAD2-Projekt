@@ -32,11 +32,11 @@
   <component name="ChangeListManager">
     <list default="true" id="2fba3f29-4b53-4070-ba5f-c190b1a386a9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/bin/G1-SalesManProblem.exe" beforeDir="false" afterPath="$PROJECT_DIR$/build/bin/G1-SalesManProblem.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/bin/libG1-SalesManProblem-library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/build/bin/libG1-SalesManProblem-library.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/common/Demo/CMakeFiles/G1-SalesManProblem.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/build/common/Demo/CMakeFiles/G1-SalesManProblem.dir/main.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/common/Demo/CMakeFiles/G1-SalesManProblem.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/common/Demo/CMakeFiles/G1-SalesManProblem.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/common/Sources/CMakeFiles/G1-SalesManProblem-library.dir/functions.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/build/common/Sources/CMakeFiles/G1-SalesManProblem-library.dir/functions.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/common/Sources/CMakeFiles/G1-SalesManProblem-library.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/common/Sources/CMakeFiles/G1-SalesManProblem-library.dir/objects.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/lib/libG1-SalesManProblem-library.dll.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/libG1-SalesManProblem-library.dll.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/bin/G1-SalesManProblem.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/bin/G1-SalesManProblem.exe" afterDir="false" />
@@ -46,7 +46,7 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/common/Sources/CMakeFiles/G1-SalesManProblem-library.dir/functions.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/common/Sources/CMakeFiles/G1-SalesManProblem-library.dir/functions.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/common/Sources/CMakeFiles/G1-SalesManProblem-library.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/common/Sources/CMakeFiles/G1-SalesManProblem-library.dir/objects.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/libG1-SalesManProblem-library.dll.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libG1-SalesManProblem-library.dll.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/Headers/header.h" beforeDir="false" afterPath="$PROJECT_DIR$/common/Headers/header.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Demo/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/common/Demo/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,6 +129,9 @@
       <workItem from="1591954723279" duration="137000" />
       <workItem from="1591956186320" duration="42000" />
       <workItem from="1591956270235" duration="19000" />
+      <workItem from="1591956365192" duration="1110000" />
+      <workItem from="1591958132436" duration="3000" />
+      <workItem from="1591958222916" duration="1096000" />
     </task>
     <servers />
   </component>
@@ -155,37 +158,37 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="1429" y="411" key="#G1-SalesManProblem-library/3440.841.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591779005299" />
-    <state x="703" y="416" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591954836408">
+    <state x="703" y="416" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591958498499">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="703" y="416" key="#com.intellij.execution.impl.EditConfigurationsDialog/3440.841.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591954836408" />
+    <state x="703" y="416" key="#com.intellij.execution.impl.EditConfigurationsDialog/3440.841.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591958498499" />
     <state x="1437" y="502" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591867599977">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="1437" y="502" key="#com.intellij.fileTypes.FileTypeChooser/3440.841.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591867599977" />
-    <state x="812" y="458" width="541" height="490" key="FileChooserDialogImpl" timestamp="1591954834934">
+    <state x="812" y="458" width="541" height="490" key="FileChooserDialogImpl" timestamp="1591958497032">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="812" y="458" width="541" height="490" key="FileChooserDialogImpl/3440.841.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591954834934" />
-    <state width="3397" height="352" key="GridCell.Tab.0.bottom" timestamp="1591954859311">
+    <state x="812" y="458" width="541" height="490" key="FileChooserDialogImpl/3440.841.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591958497032" />
+    <state width="1984" height="411" key="GridCell.Tab.0.bottom" timestamp="1591959558233">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="3397" height="352" key="GridCell.Tab.0.bottom/3440.841.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591954859311" />
+    <state width="1984" height="411" key="GridCell.Tab.0.bottom/3440.841.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591959558233" />
     <state width="3397" height="399" key="GridCell.Tab.0.bottom/718.1440.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591632228596" />
-    <state width="3397" height="352" key="GridCell.Tab.0.center" timestamp="1591954859311">
+    <state width="1984" height="411" key="GridCell.Tab.0.center" timestamp="1591959558233">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="3397" height="352" key="GridCell.Tab.0.center/3440.841.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591954859311" />
+    <state width="1984" height="411" key="GridCell.Tab.0.center/3440.841.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591959558233" />
     <state width="3397" height="399" key="GridCell.Tab.0.center/718.1440.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591632228596" />
-    <state width="3397" height="352" key="GridCell.Tab.0.left" timestamp="1591954859311">
+    <state width="1984" height="411" key="GridCell.Tab.0.left" timestamp="1591959558233">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="3397" height="352" key="GridCell.Tab.0.left/3440.841.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591954859311" />
+    <state width="1984" height="411" key="GridCell.Tab.0.left/3440.841.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591959558233" />
     <state width="3397" height="399" key="GridCell.Tab.0.left/718.1440.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591632228596" />
-    <state width="3397" height="352" key="GridCell.Tab.0.right" timestamp="1591954859311">
+    <state width="1984" height="411" key="GridCell.Tab.0.right" timestamp="1591959558233">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="3397" height="352" key="GridCell.Tab.0.right/3440.841.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591954859311" />
+    <state width="1984" height="411" key="GridCell.Tab.0.right/3440.841.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591959558233" />
     <state width="3397" height="399" key="GridCell.Tab.0.right/718.1440.1536.832/0.0.3440.1400@0.0.3440.1400" timestamp="1591632228596" />
     <state width="2019" height="332" key="GridCell.Tab.1.bottom" timestamp="1591804734870">
       <screen x="0" y="0" width="3440" height="1400" />

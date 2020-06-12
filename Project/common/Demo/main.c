@@ -91,13 +91,16 @@ int main() {
         //menu_wahl-Eingabe
         scanf("%d", &menu_wahl);
 
+        int sortierwahl=0;
+        char stadtsuche[20];
+
+
         switch (menu_wahl) {
             case 0:
                 printf("Progamm wird beendet\n\n");
                 break;
             case 1:
                 printf("Sie haben die Wahl 1 getroffen\n Wie wollen Sie sortieren?\n1: ID\n2: Bevölkerung\n3: Name\n");
-                int sortierwahl=0;
                 scanf("%d", &sortierwahl);
                 if(sortierwahl==1){
                     sortieren_id(cities, groesse);
@@ -109,7 +112,6 @@ int main() {
                 }
                 break;
             case 2:
-                char stadtsuche[20]={'\0'};
                 printf("Sie haben die Wahl 2 getroffen\nWelche Stadt suchen Sie?: ");
                 scanf(" %s", stadtsuche);
                 suchen(cities, stadtsuche, groesse);
