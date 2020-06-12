@@ -9,6 +9,7 @@
 //Überschrift aus CSV:
 //city,"city_ascii","lat","lng","country","iso2","iso3","admin_name","capital","population","id"
 
+//Struct für einen Datensatz/Zeile der CSV-file
 typedef struct City{
     char city[60];
     char city_ascii[60];

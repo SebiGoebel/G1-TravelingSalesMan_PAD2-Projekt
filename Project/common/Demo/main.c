@@ -9,19 +9,22 @@ int main() {
     //title und ascii-art
     titel();
 
+    //name of the csv-file
     char  *filename = "../../worldcities.csv";
 
     /**
-     * liest die CSV aus und spiechert es in einem array
+     * liest die CSV aus und spiechert es in einem dynamischen array
      * @Sebi
      */
     //----------------------------------------
 
     //bestimmt die groesse des Arrays
     int groesse = arrayGroesse(filename);
-    //City cities[groesse+1];
+
+    //allokiert ein array of structs
     City *cities = malloc(sizeof(City));
 
+    //öffnet das csv-file
     FILE *fPointer = fopen(filename, "r");
 
     char zeile[200];
@@ -36,8 +39,10 @@ int main() {
 
     //liest in das array ein
     fgets(zeile, sizeof(zeile), fPointer);
+
     while(fgets(zeile, sizeof(zeile), fPointer) != NULL){
 
+        //allokiert notwendigen speicher fürs array
         cities = realloc(cities,(counter+1)*sizeof(City));
 
         char *trennung = "\",\"";
@@ -76,7 +81,7 @@ int main() {
 
     /**
      * MENU
-     * @Sebi
+     * @Sebi @Rahil
      */
     int menu_wahl;
 
@@ -104,6 +109,7 @@ int main() {
                 printf("Progamm wird beendet\n\n");
                 break;
             case 1:
+                //kreiert ein unter Menu für verschiedene Sortier-Optionen
                 printf("Sie haben die Wahl 1 getroffen\n Wie wollen Sie sortieren?\n1: ID\n2: Bevölkerung\n3: Name\n");
                 scanf("%d", &sortierwahl);
                 if(sortierwahl==1){
