@@ -296,7 +296,7 @@ void travellingsalesman_csv(City citiessuche[], int anzahl, int n)
         printf("Stadtname: ");
         scanf(" %[^\n]s", stadteingabe);
 
-        for(int i=0; i<n; i++)
+        for(int j=0; i<n; j++)
         {
             if(strcmp(citiessuche[i].city_ascii, stadteingabe))
             {
