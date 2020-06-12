@@ -269,3 +269,15 @@ void sortieren_name(City citiessort[], int n)
         printf("STADT: %s  LAND: %s LAT: %f LNG: %f\n", citiessort[i].city_ascii,citiessort[i].country, citiessort[i].lat, citiessort[i].lng);
     }
 }
+
+void suchen(City citiessuche[], char stadtname[], int n)
+{
+    for(int i=0; i<n; i++)
+    {
+        if(strcmp(citiessuche[i].city_ascii, stadtname))
+        {
+        }else{
+            printf("\nStadt: %s\nLand: %s\nLongitude: %f\nLatitude: %f\nPopulation: %d\n", citiessuche[i].city_ascii, citiessuche[i].country, citiessuche[i].lng, citiessuche[i].lat, citiessuche[i].population);
+        }
+    }
+}
