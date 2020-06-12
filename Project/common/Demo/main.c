@@ -19,7 +19,8 @@ int main() {
 
     //bestimmt die groesse des Arrays
     int groesse = arrayGroesse(filename);
-    City cities[groesse+1];
+    //City cities[groesse+1];
+    City *cities = malloc(sizeof(City));
 
     FILE *fPointer = fopen(filename, "r");
 
@@ -36,6 +37,8 @@ int main() {
     //liest in das array ein
     fgets(zeile, sizeof(zeile), fPointer);
     while(fgets(zeile, sizeof(zeile), fPointer) != NULL){
+
+        cities = realloc(cities,(counter+1)*sizeof(City));
 
         char *trennung = "\",\"";
         char *piece = strtok(zeile, trennung);
