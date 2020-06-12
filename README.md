@@ -11,6 +11,14 @@
   Rahil Chopra          mr19b063@technikum-wien.at
   
   Peter Pallnstorfer    mr19b043@technikum-wien.at
+  
+#### WICHTIGE INFOS:
+Die Executable befindet sich in "Project/build/bin/G1-SalesManProblem.exe".
+
+Die erstellten CSV-Dateien werden in "Project/build/bin/" gespeichert.
+
+Beim auswählen des Namens einer neuen CSV-Datei bitte die Endung ".csv" auch dazu schreiben.
+
 
 ## 1_UseCase:
 
