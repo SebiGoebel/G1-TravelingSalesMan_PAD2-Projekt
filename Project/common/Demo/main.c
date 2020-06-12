@@ -117,7 +117,7 @@ int main() {
                 break;
             case 2:
                 printf("Sie haben die Wahl 2 getroffen\nWelche Stadt suchen Sie?: ");
-                scanf(" %s", stadtsuche);
+                scanf(" %[^\n]s", stadtsuche);
                 suchen(cities, stadtsuche, groesse);
                 break;
             case 3:
