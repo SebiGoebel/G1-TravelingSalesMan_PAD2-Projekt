@@ -96,7 +96,7 @@ int main() {
                 printf("Progamm wird beendet\n\n");
                 break;
             case 1:
-                printf("Sie haben die Wahl 1 getroffen\n Wie wollen Sie sortieren?\n1: ID\n2: Bevölkerung\n3: Name");
+                printf("Sie haben die Wahl 1 getroffen\n Wie wollen Sie sortieren?\n1: ID\n2: Bevölkerung\n3: Name\n");
                 int sortierwahl=0;
                 scanf("%d", &sortierwahl);
                 if(sortierwahl==1){
@@ -106,12 +106,13 @@ int main() {
                 }else if(sortierwahl==3){
                     sortieren_name(cities, groesse);
                 }else{
-
                 }
-
                 break;
             case 2:
-                printf("Sie haben die Wahl 2 getroffen\n");
+                char stadtsuche[20]={'\0'};
+                printf("Sie haben die Wahl 2 getroffen\nWelche Stadt suchen Sie?: ");
+                scanf(" %s", stadtsuche);
+                suchen(cities, stadtsuche, groesse);
                 break;
             case 3:
                 printf("Sie haben die Wahl 3 getroffen\n");
