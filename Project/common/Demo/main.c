@@ -82,8 +82,8 @@ int main() {
         printf("MENU:\n");
         printf("----------------------------\n");
         printf("Bitte treffen Sie Ihre wahl:\n");
-        printf(" - 1 - Auswahl 1\n");
-        printf(" - 2 - Auswahl 2\n");
+        printf(" - 1 - Auswahl 1: Sortieren\n");
+        printf(" - 2 - Auswahl 2: Suchen\n");
         printf(" - 3 - Auswahl 3\n");
         printf(" - 0 - Beenden\n");
         printf("----------------------------\n");
@@ -96,11 +96,19 @@ int main() {
                 printf("Progamm wird beendet\n\n");
                 break;
             case 1:
-                printf("Sie haben die Wahl 1 getroffen\n");
-                for(int i=0; i<20;i++)
-                {
-                    printf("%d STADT: %s  LAND: %s\n",  cities[i].id, cities[i].city_ascii,cities[i].country);
+                printf("Sie haben die Wahl 1 getroffen\n Wie wollen Sie sortieren?\n1: ID\n2: Bevölkerung\n3: Name");
+                int sortierwahl=0;
+                scanf("%d", &sortierwahl);
+                if(sortierwahl==1){
+                    sortieren_id(cities, groesse);
+                }else if(sortierwahl==2){
+                    sortieren_pop(cities, groesse);
+                }else if(sortierwahl==3){
+                    sortieren_name(cities, groesse);
+                }else{
+
                 }
+
                 break;
             case 2:
                 printf("Sie haben die Wahl 2 getroffen\n");

@@ -47,4 +47,13 @@ void ausgabe(City *anfang);
 //gibt die größe eines Arrays an um ein file vollständig lesen zu können
 int arrayGroesse(const char *filename);
 
+//sortiert das Array nach ID und printet es - zusaetzlich kann eine csv datei erstellt werden
+void sortieren_id(City citiessort[], int n);
+
+//sortiert das Array nach Bevoelkerung und printet es - zusaetzlich kann eine csv datei erstellt werden
+void sortieren_pop(City citiessort[], int n);
+
+//sortiert das Array nach Staedtenamen und printet es - zusaetzlich kann eine csv datei erstellt werden
+void sortieren_name(City citiessort[], int n);
+
 #endif //PROJECT_HEADER_H
