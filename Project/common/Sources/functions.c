@@ -390,6 +390,7 @@ void TravellingSalesman(char* filename, int numOfCities){
     limit = numOfCities;
 
 
+    //locale "Dist"-matrix in globale "mastrix"-matrix
     for(i = 0; i < limit; i++)
     {
         for(j = 0; j < limit; j++)

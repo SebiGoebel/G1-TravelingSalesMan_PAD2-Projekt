@@ -102,6 +102,7 @@ int main() {
         int sortierwahl=0;
         char stadtsuche[20];
         int anzahl_staedte;
+        char dateiname[20];
 
 
         switch (menu_wahl) {
@@ -110,7 +111,7 @@ int main() {
                 break;
             case 1:
                 //kreiert ein unter Menu für verschiedene Sortier-Optionen
-                printf("Sie haben die Wahl 1 getroffen\n Wie wollen Sie sortieren?\n1: ID\n2: Bevölkerung\n3: Name\n");
+                printf("Sie haben die Wahl 1 getroffen\n Wie wollen Sie sortieren?\n1: ID\n2: Bevoelkerung\n3: Name\n");
                 scanf("%d", &sortierwahl);
                 if(sortierwahl==1){
                     sortieren_id(cities, groesse);
@@ -131,7 +132,9 @@ int main() {
                 printf("Wie viele Staedte wollen Sie einlesen?: ");
                 scanf("%d", &anzahl_staedte);
                 travellingsalesman_csv(cities, anzahl_staedte, groesse);
-
+                printf("CSV-Dateiname: \n");
+                scanf(" %s", dateiname);
+                TravellingSalesman(dateiname, anzahl_staedte);
                 break;
             default:
                 printf("Keine gueltige Auswahl\n");
