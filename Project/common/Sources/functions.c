@@ -299,15 +299,15 @@ void travellingsalesman_csv(City citiessuche[], int anzahl, int n)
         printf("Stadtname: ");
         scanf(" %[^\n]s", stadteingabe);
 
-        for(int j=0; i<n; j++)
+        for(int j=0; j<n; j++)
         {
-            if(strcmp(citiessuche[i].city_ascii, stadteingabe))
+            if(strcmp(citiessuche[j].city_ascii, stadteingabe))
             {
             }
             else
             {
                 //city_ascii, country, lat, lng
-                fprintf(file2, " %s, %s, %f, %f\n", citiessuche[i].city_ascii, citiessuche[i].country, citiessuche[i].lat, citiessuche[i].lng);
+                fprintf(file2, " %s, %s, %f, %f\n", citiessuche[j].city_ascii, citiessuche[j].country, citiessuche[j].lat, citiessuche[j].lng);
             }
         }
 
