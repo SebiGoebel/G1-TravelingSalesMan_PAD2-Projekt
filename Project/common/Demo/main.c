@@ -63,7 +63,6 @@ int main() {
 
     printf("Es wurden %d Datensaetze eingelesen!\n", counter);
 
-
     //TEST:
     //printf("Test: %s\n", cities[1].city);
 
@@ -78,6 +77,7 @@ int main() {
      */
     int menu_wahl;
 
+
     do{
         printf("MENU:\n");
         printf("----------------------------\n");
@@ -89,7 +89,7 @@ int main() {
         printf("----------------------------\n");
 
         //menu_wahl-Eingabe
-        scanf(" %d", &menu_wahl);
+        scanf("%d", &menu_wahl);
 
         switch (menu_wahl) {
             case 0:
@@ -97,6 +97,10 @@ int main() {
                 break;
             case 1:
                 printf("Sie haben die Wahl 1 getroffen\n");
+                for(int i=0; i<20;i++)
+                {
+                    printf("%d STADT: %s  LAND: %s\n",  cities[i].id, cities[i].city_ascii,cities[i].country);
+                }
                 break;
             case 2:
                 printf("Sie haben die Wahl 2 getroffen\n");
