@@ -281,3 +281,32 @@ void suchen(City citiessuche[], char stadtname[], int n)
         }
     }
 }
+
+void travellingsalesman_csv(City citiessuche[], int anzahl, int n)
+{
+    char stadteingabe[20];
+    char tsmfilename[20];
+    printf("Filename.csv: ");
+    scanf(" %s", tsmfilename);
+    FILE* file2;
+    file2=fopen(tsmfilename, "w");
+
+    for(int i=0; i<anzahl; i++)
+    {
+        printf("Stadtname: ");
+        scanf(" %[^\n]s", stadteingabe);
+
+        for(int i=0; i<n; i++)
+        {
+            if(strcmp(citiessuche[i].city_ascii, stadteingabe))
+            {
+            }
+            else
+            {
+                //city_ascii, country, lat, lng
+                fprintf(file2, " %s, %s, %f, %f\n", citiessuche[i].city_ascii, citiessuche[i].country, citiessuche[i].lat, citiessuche[i].lng);
+            }
+        }
+
+    }fclose(file2);
+}

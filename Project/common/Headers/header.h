@@ -53,4 +53,8 @@ void suchen(City citiessuche[], char stadtname[], int n);
 //sucht nach einer Stadt und printet Namen, Land, Lat, Lng, Bevoerlkerung
 //Peter
 
+void travellingsalesman_csv(City citiessuche[], int anzahl, int n)
+//Staedtenamen werden vom Benutzer eingegeben und es wird eine CSV Datei erstellt
+//Peter
+
 #endif //PROJECT_HEADER_H

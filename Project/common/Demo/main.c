@@ -87,7 +87,7 @@ int main() {
         printf("Bitte treffen Sie Ihre wahl:\n");
         printf(" - 1 - Auswahl 1: Sortieren\n");
         printf(" - 2 - Auswahl 2: Suchen\n");
-        printf(" - 3 - Auswahl 3\n");
+        printf(" - 3 - Auswahl 3: Travelling-Salesman CSV-Datei erstellen\n");
         printf(" - 0 - Beenden\n");
         printf("----------------------------\n");
 
@@ -96,6 +96,7 @@ int main() {
 
         int sortierwahl=0;
         char stadtsuche[20];
+        int anzahl_staedte;
 
 
         switch (menu_wahl) {
@@ -121,6 +122,9 @@ int main() {
                 break;
             case 3:
                 printf("Sie haben die Wahl 3 getroffen\n");
+                printf("Wie viele Staedte wollen Sie einlesen?: ");
+                scanf("%d", &anzahl_staedte);
+                travellingsalesman_csv(cities, anzahl_staedte, groesse);
                 break;
             default:
                 printf("Keine gueltige Auswahl\n");
