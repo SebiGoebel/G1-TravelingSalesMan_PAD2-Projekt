@@ -133,3 +133,139 @@ int arrayGroesse(const char *filename){
     rewind(fPointer);
     return zeilencounter;
 }
+
+void sortieren_id(City citiessort[], int n)
+{
+    City temp;
+    for(int i=0; i<n; i++)
+    {
+        for(int j=0; j<n; j++)
+        {
+            if(citiessort[j].id>citiessort[j+1].id)
+            {
+                temp.id=citiessort[j].id;
+                citiessort[j].id=citiessort[j+1].id;
+                citiessort[j+1].id=temp.id;
+
+                strcpy(temp.country, citiessort[j].country);
+                strcpy(citiessort[j].country, citiessort[j+1].country);
+                strcpy(citiessort[j+1].country, temp.country);
+
+                strcpy(temp.city_ascii, citiessort[j].city_ascii);
+                strcpy(citiessort[j].city_ascii, citiessort[j+1].city_ascii);
+                strcpy(citiessort[j+1].city_ascii, temp.city_ascii);
+            }
+        }
+    }
+    char dateiname[20];
+    FILE* thefile;
+    printf("Enter \"filename.csv\" or Enter \"0\" for no file: ");
+    scanf(" %s", dateiname);
+    if(strcmp(dateiname, "0"))
+    {
+        thefile=fopen(dateiname, "w");
+        for(int i=0; i<20; i++)
+        {
+            fprintf(thefile,"%d, %s, %s\n", citiessort[i].id, citiessort[i].city_ascii, citiessort[i].country);
+        }
+        fclose(thefile);
+    }else{
+        printf("\nKeine File erstellt!\n");
+    }
+    for(int i=0; i<n;i++)
+    {
+        printf("%d STADT: %s  LAND: %s\n",  citiessort[i].id, citiessort[i].city_ascii,citiessort[i].country);
+    }
+}
+
+void sortieren_pop(City citiessort[], int n)
+{
+    City temp;
+    for(int i=0; i<n; i++)
+    {
+        for(int j=0; j<n; j++)
+        {
+            if(citiessort[j].population>citiessort[j+1].population)
+            {
+                temp.population=citiessort[j].population;
+                citiessort[j].population=citiessort[j+1].population;
+                citiessort[j+1].population=temp.population;
+
+                strcpy(temp.country, citiessort[j].country);
+                strcpy(citiessort[j].country, citiessort[j+1].country);
+                strcpy(citiessort[j+1].country, temp.country);
+
+                strcpy(temp.city_ascii, citiessort[j].city_ascii);
+                strcpy(citiessort[j].city_ascii, citiessort[j+1].city_ascii);
+                strcpy(citiessort[j+1].city_ascii, temp.city_ascii);
+            }
+        }
+    }
+    char dateiname[20];
+    FILE* thefile;
+    printf("Enter \"filename.csv\" or Enter \"0\" for no file: ");
+    scanf(" %s", dateiname);
+    if(strcmp(dateiname, "0"))
+    {
+        thefile=fopen(dateiname, "w");
+        for(int i=0; i<20; i++)
+        {
+            fprintf(thefile,"%s, %s, %d\n", citiessort[i].city_ascii, citiessort[i].country, citiessort[i].population);
+        }
+        fclose(thefile);
+    }else{
+        printf("\nKeine File erstellt!\n");
+    }
+    for(int i=0; i<n;i++)
+    {
+        printf("STADT: %s  LAND: %s\nEinwohner: %d\n",  citiessort[i].city_ascii, citiessort[i].country, citiessort[i].population);
+    }
+}
+
+void sortieren_name(City citiessort[], int n)
+{
+    City temp;
+    for(int i=0; i<n; i++)
+    {
+        for(int j=0; j<n; j++)
+        {
+            if(0 < strcmp(citiessort[j].city_ascii, citiessort[j+1].city_ascii))
+            {
+                temp.lat=citiessort[j].lat;
+                citiessort[j].lat=citiessort[j+1].lat;
+                citiessort[j+1].lat=temp.lat;
+
+                temp.lng=citiessort[j].lng;
+                citiessort[j].lng=citiessort[j+1].lng;
+                citiessort[j+1].lng=temp.lng;
+
+                strcpy(temp.country, citiessort[j].country);
+                strcpy(citiessort[j].country, citiessort[j+1].country);
+                strcpy(citiessort[j+1].country, temp.country);
+
+                strcpy(temp.city_ascii, citiessort[j].city_ascii);
+                strcpy(citiessort[j].city_ascii, citiessort[j+1].city_ascii);
+                strcpy(citiessort[j+1].city_ascii, temp.city_ascii);
+            }
+        }
+    }
+    char dateiname[20];
+    FILE* thefile;
+    printf("Enter \"filename.csv\" or Enter \"0\" for no file: ");
+    scanf(" %s", dateiname);
+    if(strcmp(dateiname, "0"))
+    {
+        thefile=fopen(dateiname, "w");
+        for(int i=0; i<20; i++)
+        {
+            fprintf(thefile,"%s, %s, %f, %f\n", citiessort[i].city_ascii, citiessort[i].country, citiessort[i].lat, citiessort[i].lng);
+        }
+        fclose(thefile);
+    }else{
+        printf("\nKeine File erstellt!\n");
+    }
+    for(int i=0; i<n;i++)
+    {
+        printf("STADT: %s  LAND: %s LAT: %f LNG: %f\n", citiessort[i].city_ascii,citiessort[i].country, citiessort[i].lat, citiessort[i].lng);
+    }
+}
