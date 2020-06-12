@@ -131,6 +131,7 @@ int main() {
                 printf("Wie viele Staedte wollen Sie einlesen?: ");
                 scanf("%d", &anzahl_staedte);
                 travellingsalesman_csv(cities, anzahl_staedte, groesse);
+
                 break;
             default:
                 printf("Keine gueltige Auswahl\n");
