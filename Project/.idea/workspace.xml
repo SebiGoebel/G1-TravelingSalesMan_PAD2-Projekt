@@ -32,20 +32,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2fba3f29-4b53-4070-ba5f-c190b1a386a9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/bin/G1-SalesManProblem.exe" beforeDir="false" afterPath="$PROJECT_DIR$/build/bin/G1-SalesManProblem.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/bin/hallo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/build/bin/hallo.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/bin/libG1-SalesManProblem-library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/build/bin/libG1-SalesManProblem-library.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/common/Demo/CMakeFiles/G1-SalesManProblem.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/build/common/Demo/CMakeFiles/G1-SalesManProblem.dir/main.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/common/Demo/CMakeFiles/G1-SalesManProblem.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/common/Demo/CMakeFiles/G1-SalesManProblem.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/common/Sources/CMakeFiles/G1-SalesManProblem-library.dir/functions.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/build/common/Sources/CMakeFiles/G1-SalesManProblem-library.dir/functions.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/common/Sources/CMakeFiles/G1-SalesManProblem-library.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/common/Sources/CMakeFiles/G1-SalesManProblem-library.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib/libG1-SalesManProblem-library.dll.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/libG1-SalesManProblem-library.dll.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bin/libG1-SalesManProblem-library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/bin/libG1-SalesManProblem-library.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/common/Demo/CMakeFiles/G1-SalesManProblem.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/common/Demo/CMakeFiles/G1-SalesManProblem.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/common/Sources/CMakeFiles/G1-SalesManProblem-library.dir/functions.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/common/Sources/CMakeFiles/G1-SalesManProblem-library.dir/functions.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/common/Sources/CMakeFiles/G1-SalesManProblem-library.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/common/Sources/CMakeFiles/G1-SalesManProblem-library.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/libG1-SalesManProblem-library.dll.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libG1-SalesManProblem-library.dll.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/Sources/functions.c" beforeDir="false" afterPath="$PROJECT_DIR$/common/Sources/functions.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,6 +124,8 @@
       <workItem from="1591996638749" duration="1394000" />
       <workItem from="1591999038004" duration="268000" />
       <workItem from="1591999322655" duration="1223000" />
+      <workItem from="1592228939332" duration="3000" />
+      <workItem from="1592229281539" duration="34000" />
     </task>
     <servers />
   </component>
