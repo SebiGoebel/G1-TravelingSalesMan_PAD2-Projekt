@@ -5,6 +5,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <math.h>
 #include "../Headers/header.h"
 
 #define FILENAME "worldcities.csv"
@@ -22,6 +23,8 @@ typedef struct City{
     struct City* next;
 }City;
 */
+
+int matrix[25][25], visited_cities[10], limit, cost = 0;
 
 //titel und ascii-art
 //@Sebi
@@ -296,17 +299,232 @@ void travellingsalesman_csv(City citiessuche[], int anzahl, int n)
         printf("Stadtname: ");
         scanf(" %[^\n]s", stadteingabe);
 
-        for(int j=0; i<n; j++)
+        for(int j=0; j<n; j++)
         {
-            if(strcmp(citiessuche[i].city_ascii, stadteingabe))
+            if(strcmp(citiessuche[j].city_ascii, stadteingabe))
             {
             }
             else
             {
                 //city_ascii, country, lat, lng
-                fprintf(file2, " %s, %s, %f, %f\n", citiessuche[i].city_ascii, citiessuche[i].country, citiessuche[i].lat, citiessuche[i].lng);
+                fprintf(file2, " %s, %s, %f, %f\n", citiessuche[j].city_ascii, citiessuche[j].country, citiessuche[j].lat, citiessuche[j].lng);
             }
         }
 
     }fclose(file2);
+}
+
+void TravellingSalesman(char* filename, int numOfCities){
+
+    int groesse = arrayGroesse(filename);
+    TSPCity cities[groesse+1];
+
+    FILE *fPointer = fopen(filename, "r");
+
+    char zeile[200];
+    int counter = 0;
+    int datensatz = 0;
+
+
+    /**
+     * fgets() --> teilt csv in einzelne zeilen
+     * strtok()--> teilt einzelne zeilen in einzelne Strings
+     */
+
+    //liest in das array ein
+    fgets(zeile, sizeof(zeile), fPointer);
+    while(fgets(zeile, sizeof(zeile), fPointer) != NULL){
+
+        char *trennung = ", ";
+        char *piece = strtok(zeile, trennung);
+
+        //unterteilt jede zeile in einzelne daten
+        while(piece != NULL){
+            if(datensatz == 0) strcpy(cities[counter].city_ascii, piece);
+            if(datensatz == 1) strcpy(cities[counter].country, piece);
+            if(datensatz == 2) cities[counter].lat = atof(piece);
+            if(datensatz == 3) cities[counter].lng = atof(piece);
+
+            datensatz++;
+            piece = strtok(NULL, trennung);
+        }
+        datensatz = 0;
+        counter++;
+    }
+
+    printf("Es wurden %d Datensaetze eingelesen!\n", counter);
+    /*
+    printf("TEST:\n");
+    printf("Test: %s\n", cities[2].city_ascii);
+    printf("Test: %s\n", cities[2].country);
+    printf("Test: %f\n", cities[2].lat);
+    printf("Test: %f\n", cities[2].lng);
+    printf("\n\n");
+    */
+    //Distanz-Matrix einlesen
+    double Dist[numOfCities][numOfCities];
+    for(int i = 0; i < numOfCities; i++){
+        for(int j = 0; j < numOfCities; j++){
+            Dist[i][j] = getDistance(cities[i], cities[j]);
+        }
+        visited_cities[i] = 0;
+    }
+
+
+    /*
+    //TEST --> Matrix ausgeben
+    printf("\nTEST Matrix ausgeben:\n");
+    for(int i = 0; i < numOfCities; i++)
+    {
+        for(int j = 0; j < numOfCities; j++)
+        {
+            printf("%2.3f ", Dist[i][j]);
+        }
+        printf("\n");
+    }
+    printf("\n\n");
+    */
+
+
+    int i, j;
+    limit = numOfCities;
+
+
+    //locale "Dist"-matrix in globale "mastrix"-matrix
+    for(i = 0; i < limit; i++)
+    {
+        for(j = 0; j < limit; j++)
+        {
+            matrix[i][j] = Dist[i][j];
+        }
+    }
+
+
+    printf("\nKosten-Matrix:\n");
+
+    //prints matrix
+    for(i = 0; i < limit; i++)
+    {
+        printf("\n");
+        for(j = 0; j < limit; j++)
+        {
+            printf("%d ", matrix[i][j]);
+        }
+    }
+
+
+    printf("\n\nPath:\t");
+    minimum_cost(0);
+    printf("\n\nMinimum Cost: \t");
+    printf("%d\n", cost);
+
+}
+
+void minimum_cost(int city)
+{
+    int nearest_city;
+    visited_cities[city] = 1;
+    printf("%d ", city + 1);
+    nearest_city = tsp(city);
+    if(nearest_city == 999)
+    {
+        nearest_city = 0;
+        printf("%d", nearest_city + 1);
+        cost = cost + matrix[city][nearest_city];
+        return;
+    }
+    minimum_cost(nearest_city);
+}
+
+int tsp(int c)
+{
+    int count, nearest_city = 999;
+    int minimum = 999, temp;
+    for(count = 0; count < limit; count++)
+    {
+        if((matrix[c][count] != 0) && (visited_cities[count] == 0))
+        {
+            if(matrix[c][count] < minimum)
+            {
+                minimum = matrix[count][0] + matrix[c][count];
+            }
+            temp = matrix[c][count];
+            nearest_city = count;
+        }
+    }
+
+    if(minimum != 999)
+    {
+        cost = cost + temp;
+    }
+
+    return nearest_city;
+}
+
+
+
+//NOT IN USE
+double getDistance(TSPCity city1, TSPCity city2)
+{
+    double distance = 0;
+
+    //für die x-Achse
+    double x = 0;
+    if(city1.lat <= city2.lat)
+    {
+        x = city2.lat-city1.lat;
+    }
+    else
+    {
+        x = city1.lat-city2.lat;
+    }
+
+    //für die y-Achse
+    double y = 0;
+    if(city1.lng <= city2.lng)
+    {
+        y = city2.lng-city1.lng;
+    }
+    else
+    {
+        y = city1.lng-city2.lng;
+    }
+
+    //Satz des Pytagoras
+    //für 2 hoch 4 --> 2^4
+    //pow(2,4);
+    distance = sqrt(pow(x,2) + pow(y,2));
+    return distance;
+}
+
+int faktorie(int zahl){
+    if(zahl > 1){
+        return zahl*faktorie(zahl-1);
+    }
+    else
+    {
+        return 1;
+    }
+}
+
+double getSmaller(double a, double b){
+    if(a<=b)
+    {
+        return a;
+    }
+    else
+    {
+        return b;
+    }
+}
+
+double getBigger(double a, double b){
+    if(a>b)
+    {
+        return a;
+    }
+    else
+    {
+        return b;
+    }
 }
